@@ -2,7 +2,7 @@ import { Avatar, Box, Flex, Text } from "@chakra-ui/react";
 
 export function Profile() {
   return(
-    <Flex align='center'>
+    <Flex align='center' pr='2'>
       <Box mr='4' textAlign='right'>
         <Text>Evandro Marinho</Text>
         <Text color='gray.300' fontSize='small'>evanforgotlastone@hotmail.com</Text>
